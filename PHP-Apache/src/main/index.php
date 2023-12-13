@@ -34,7 +34,7 @@
         </div>
       
         <div style = "border: solid black 1px; width: fit-content; padding: 25px;">
-            <form>
+            <form action = "guardar.php" method = "POST">
 
                 <div>
                     <div><p>Clave</p></div>
@@ -48,7 +48,7 @@
 
                 <div>
                     <div><p>Dirección</p></div>
-                    <input type = "text" name ="direccon"/>
+                    <input type = "text" name ="direccion"/>
                 </div>
 
                 <div>
