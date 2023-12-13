@@ -2,6 +2,7 @@ CREATE USER alejandro;
 CREATE DATABASE practica1;
 GRANT ALL PRIVILEGES ON DATABASE practica1 TO alejandro;
 ALTER DATABASE practica1 OWNER TO alejandro;
+ALTER USER alejandro WITH PASSWORD 'postgres';
 
 connect practica1
 
