@@ -2,7 +2,7 @@
     try {
         $dsn = "pgsql:host=localhost;port=5432;dbname=practica1;";
         $username = "alejandro";
-        $password = "ajxy2381";
+        $password = "postgres";
     
         $pdo = new PDO($dsn, $username, $password);
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
